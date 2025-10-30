@@ -1,0 +1,23 @@
+[
+  {"caption": "-",},
+  { "caption": "gemini: gemini Settings",
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/gemini/gemini.sublime-settings",
+      "default": "{\n\t$0\n}\n"
+    }
+  },
+  { "caption": "gemini: gemini Key Bindings",
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/gemini/gemini.sublime-keymap",
+      "default": "[\n\t$0\n]\n"
+    }
+  },
+  { "caption": "gemini: Open Readme",
+    "command": "open_file",
+    "args": {
+      "file": "${packages}/gemini/README.md"
+    }
+  },
+]

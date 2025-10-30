@@ -1,0 +1,27 @@
+[
+{
+    "caption": "gemini",
+    "id": "",
+    "children": [
+    {
+        "caption": "ask",
+        "command": "gemini_code_assistant"
+    },
+    {
+        "caption": "prompt",
+        "command": "open_file",
+        "args":
+        {
+            "file": "${packages}/gemini/prompts.py"
+        }
+    },
+    {
+        "caption": "Key Bindings",
+        "command": "edit_settings",
+        "args":
+        {
+            "base_file": "${packages}/gemini/gemini.sublime-keymap",
+            "default": "[\n\t$0\n]\n"
+        }
+    }]
+}]

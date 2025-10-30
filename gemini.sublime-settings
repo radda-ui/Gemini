@@ -1,0 +1,11 @@
+{
+    "api_key": "",
+    "model": "gemini-2.5-flash",
+    "config": {
+        "temperature":0.95,
+        "top_p":0.95,
+        "top_k":64,
+        "max_output_tokens":65536,
+        "response_mime_type":"text/plain",
+    },
+}
