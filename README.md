@@ -26,7 +26,7 @@ If you're like me and love to get your hands a little dirty, installing this man
 2.  **Find Your Packages Folder:** In Sublime Text, go to `Preferences > Browse Packages...`. This will open the directory where all your lovely plugins reside. Keep that window open!
 3.  **Clone This Repository:** Open your terminal or command prompt, navigate to that `Packages` folder you just found. Then, you'll want to clone this plugin's repository right into it. Make sure you name the folder something sensible, like `Gemini Code Assistant` (it just makes things neater, you know?).
     ```bash
-    git clone https://github.com/radda-ui/Gemini-chat "Gemini Code Assistant"
+    git clone https://github.com/radda-ui/Gemini "Gemini Code Assistant"
     ```
 4.  **Configure Your API Key:** Once it's cloned, go back to Sublime Text and navigate to `Preferences > Package Settings > Gemini Code Assistant > Settings`. You'll find a place to lovingly paste your Gemini API key there. Don't be shy; it's crucial!
 5.  **A Quick Restart:** Give Sublime Text a lovely little restart. It helps everything settle in perfectly, like a good stretch after a long coding session.
